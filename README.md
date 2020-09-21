@@ -34,3 +34,4 @@ Create MySQL database table — tbl_user with the following structure.
   }
   
  * Response : “User added successfully!”
+ * Cmd Command : python main.py
