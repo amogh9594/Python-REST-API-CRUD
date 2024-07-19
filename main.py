@@ -117,7 +117,7 @@ def delete_user(id):
 def not_found(error=None):
     message = {
         'status': 404,
-        'message': 'Not Found: ' + request.url,
+        'message': f'Not Found: {request.url}',
     }
     resp = jsonify(message)
     resp.status_code = 404
